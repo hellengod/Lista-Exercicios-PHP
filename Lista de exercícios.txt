@@ -1,0 +1,90 @@
+Lista de exercícios
+Praticar é muito importante! Por isso, preparamos uma lista de exercícios para você exercitar o conteúdo abordado nesta aula.
+
+1 - Escreva um programa em PHP que exiba seu nome na tela.
+
+2 - Crie um programa em PHP que calcule a média de três notas e exiba o resultado.
+
+3 - Elabore um programa em PHP que receba um valor em metros e converta para centímetros.
+
+4 - Desenvolva um programa em PHP que verifique se um ano é bissexto ou não.
+
+5 - Escreva um programa em PHP que converta uma temperatura de Celsius para Fahrenheit.
+
+6 - Escreva um programa que exiba, na tela do usuário, todos os números ímpares de 0 à 100.
+
+7 - Crie um programa que, a partir de altura e peso, calcule o IMC e exiba a classificação do IMC.
+
+8 - Desenvolva um programa que exiba na tela uma saudação (bom dia, boa tarde ou boa noite) dependendo do horário encontrado em uma variável (inteiro representando as horas).
+
+9 - Escreva um programa em PHP que remova os elementos duplicados de um array fornecido como entrada e exiba o array resultante. Por exemplo, se o array for [1, 2, 2, 3, 4, 4, 5], o programa deve exibir [1, 2, 3, 4, 5].
+
+10 - Percorra um array de notas (cada uma de 0 a 10) e exiba a nota do aluno em questão com a informação se o aluno foi aprovado ou não.
+Se a nota for maior do que 6, o aluno foi aprovado. Caso contrário, foi reprovado.
+
+11 - Defina um array associativo que representa uma conta bancária (com titular e saldo) e exiba suas informações na tela.
+
+12 - Crie um array contendo nomes de familiares seus e após sua criação adicione mais elementos ao array.
+
+13 - Escreva um programa em PHP que inicialize um array de notas e exiba somente as 3 maiores notas do array.
+
+14 - Crie um programa em PHP que transforme a string “Vinicius Dias,1997,Programador” em um array em que cada item está separado por vírgulas.
+
+15 - Escreva uma função em PHP que receba um array de strings por parâmetro e o retorne ordenado em ordem alfabética.
+
+16 - Escreva um programa em PHP que abra um arquivo chamado teste.txt para ler a primeira linha e depois o fecha.
+
+17 - Escreva um programa em PHP que abra o arquivo teste.txt, acrescente a frase "PHP é incrível!" no final do arquivo e depois o feche.
+
+18 - Crie um programa que converta a string '{"nome":"Vinicius","anoNascimento":1997,"profissao":"Dev"}' em um objeto.
+
+19 - Levando em consideração o código a seguir:
+
+<?php
+
+class Conta
+{
+    private int $saldoEmCentavos;
+    private string $nomeTitular;
+    private string $numeroConta;
+
+    public function setSaldoEmCentavos(int $saldoEmCentavos): void
+    {
+        $this->saldoEmCentavos = $saldoEmCentavos;
+    }
+
+    public function getSaldoEmCentavos(): int
+    {
+        return $this->saldoEmCentavos;
+    }
+
+    public function setNomeTitular(string $nomeTitular): void
+    {
+        $this->nomeTitular = $nomeTitular;
+    }
+
+    public function getNomeTitular(): string
+    {
+        return $this->nomeTitular;
+    }
+
+    public function setNumeroConta(int $numeroConta): void
+    {
+        $this->numeroConta = $numeroConta;
+    }
+
+    public function getNumeroConta(): string
+    {
+        return $this->numeroConta;
+    }
+}
+
+Como podemos torná-lo um pouco mais robusto, impedindo que o saldo seja manipulado livremente, por exemplo? 
+Altere o código da classe para que o saldo seja alterado somente através das operações de saque e depósito.
+
+20 - Crie uma enum em PHP com tipos de contas bancárias e implemente um método informando se a conta possui taxas. Contas correntes e de investimento possuem taxas, enquanto contas poupança e universitárias não;
+
+21 - Crie uma classe que represente uma conta com as propriedades saldo, nome do titular e tipo. Use os tipos e formas de acesso adequadas.
+
+22 - Crie uma classe ContaBancaria com métodos para realizar operações bancárias como depositar(), sacar() e consultarSaldo(). Em seguida, crie uma subclasse ContaCorrente que herda da classe ContaBancaria. Adicione um método específico para a subclasse, como cobrarTarifaMensal(), que desconta uma tarifa mensal da conta corrente.
+Além disso, no método sacar() da ContaCorrente, cobre uma taxa de saque também. Armazene essa taxa como uma constante da classe.

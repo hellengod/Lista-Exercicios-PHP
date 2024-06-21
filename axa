@@ -1,0 +1,50 @@
+Passo a passo
+PHP: criando sua aplicação
+PHP: evolua seu conhecimento e organize seu código
+PHP: conheça a programação Orientada a Objetos
+PHP: use Interfaces, Namespaces, Traits e Exceções
+PHP Composer: Dependências, Autoload e Publicação
+PHP e PDO: trabalhando com bancos de dados
+PHP e MySQL: criando sua primeira aplicação web
+PHP na Web: conhecendo o padrão MVC
+PHP na Web: lidando com segurança e API
+PHP na Web: aplicando boas práticas e PSRs
+Laravel: criando uma aplicação com MVC
+Laravel: validando formulários, usando sessões e definindo relacionamentos
+Laravel: transações, service container e autenticação
+Laravel: e-mails, eventos assíncronos, uploads e testes
+Laravel: construindo APIs
+Doctrine: conhecendo um ORM PHP
+Doctrine: Migrations, relatórios e performance
+Symfony Framework: criando uma aplicação com MVC
+Symfony Framework: formulários, validação e sessão
+Symfony Framework: cache e segurança
+Symfony Framework: e-mail, processamento assíncrono, uploads e testes
+Symfony Framework: lidando com eventos, tradução, logs e deploy
+PHP e TDD: testes com PHPUnit
+Mocks em PHP: entenda os dublês de testes
+Testes de integração com PHP: testando o acesso à API e ao banco de dados
+PHP e Behavior Driven Development: BDD com Behat
+SOLID com PHP: princípios da programação orientada a objetos
+Object Calisthenics: exercitando a Orientação a Objetos
+Refatoração em PHP: boas práticas no seu código
+XDebug: ferramenta de debug e profiling
+PHP: Programação Funcional
+PHP: dominando as Collections
+Metaprogramação com PHP: API de Reflection
+PHP Parallel: Processos, Threads e Channels
+PHP Reativo: programação assíncrona em tempo real
+Swoole PHP: servidor assíncrono e corrotinas com PHP
+Persistência poliglota com PHP: conectando-se a diferentes tipos de bancos de dados
+Persistência poliglota com PHP: implementando buscas, mensageria, bancos de dados de grafos e colunares
+Design Patterns em PHP: padrões comportamentais
+Design Patterns em PHP: padrões estruturais
+Design Patterns em PHP: padrões criacionais
+PHP e Clean Architecture: descomplicando arquitetura de software
+PHP e Domain Driven Design: apresentando os conceitos
+Avançando com PHP: Arrays, Strings, Função e Web
+PHP Exceptions: tratamento de erros
+PHP Strings: manipulando textos com PHP
+PHP I/O: trabalhando com arquivos e streams
+Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces
+PHP: manipulando coleções com Arrays
